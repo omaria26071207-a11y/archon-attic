@@ -280,3 +280,55 @@ body {
         font-size: 0.95rem;
     }
 }
+
+/* COURSE TIMELINE READABILITY FIX */
+ 
+.course-timeline h1,
+.course-timeline h2,
+.course-timeline h3,
+.course-timeline h4,
+.course-timeline h5,
+.course-timeline h6,
+.week-card h1,
+.week-card h2,
+.week-card h3,
+.week-card h4,
+.week-card h5,
+.week-card h6 {
+color: #8b5a00 !important;
+font-weight: 700;
+}
+ 
+.course-timeline p,
+.course-timeline li,
+.week-card p,
+.week-card li {
+color: #4a3b28 !important;
+}
+ 
+/* Catch-all fix for the course section */
+ 
+#course h1,
+#course h2,
+#course h3,
+#course h4,
+#course h5,
+#course h6 {
+color: #8b5a00 !important;
+}
+ 
+#course p,
+#course li {
+color: #4a3b28 !important;
+}
+
+If you want the text to exactly match the gold border shown in the screenshot, use this instead:
+
+CSS
+#course h3 {
+color: #b8860b !important;
+}
+ 
+#course p {
+color: #5c4823 !important;
+}
