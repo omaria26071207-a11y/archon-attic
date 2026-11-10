@@ -186,11 +186,11 @@ body {
 }
 
 .learning-card h3 {
-    color: var(--gold);
+    color: #f5e6c8;
 }
 
 .learning-card p {
-    color: var(--muted #594936);
+    color: #f5e6c8;
 }
 
 /* ACADEMY SECTION */
