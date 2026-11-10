@@ -332,3 +332,10 @@ color: #b8860b !important;
 #course p {
 color: #5c4823 !important;
 }
+.course-week h3 {
+    color: red !important;
+}
+
+.course-week p {
+    color: blue !important;
+}
